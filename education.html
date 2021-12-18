@@ -1,0 +1,171 @@
+<html>
+<head>
+<title>education</title>
+<style>
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-image: url("background.png");
+}
+.navbar {
+  width: 100%;
+  background-color: rosybrown;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  width: 11.50%; /* Seven links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: thistle;
+}
+.navbar a:active {
+  background-color: crimson;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+ box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: crimson;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: crimson;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a> 
+  <a href="experience.html">Experience</a> 
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="other.html">Other</a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<center><div class="row">
+ <div class="column">
+    <div class="card">
+      <center>
+      <img src="education1.png" alt="education1" style="width:67%">
+      </center>
+      <div class="container">
+        <h2>TABIKA PERPADUAN</h2>
+        <p class="title">2006</p>
+        <p>Alor Akar, 25250 Kuantan, Pahang</p>
+        <p>-</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center>
+      <img src="education2.png" alt="education2" style="width:75%">
+      </center>
+      <div class="container">
+        <h2>SK GALING</h2>
+        <p class="title">2007-2012</p>
+        <p>Jalan Beserah, 25250 Kuantan, Pahang</p>
+        <p>Facebook: Sk Galing Kuantan</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center>
+      <img src="education3.png" alt="education3" style="width:73%">
+      </center>
+      <div class="container">
+        <h2>SMK BATU KAWAN</h2>
+        <p class="title">2013-2017</p>
+        <p>Batu Kawan, 14100 Simpang Ampat, Pulau Pinang</p>
+        <p>smkbatukawan.blogspot.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center>
+      <img src="education4.png" alt="education4" style="width:100%">
+      </center>
+      <div class="container">
+        <h2>Universiti Teknologi Mara</h2>
+        <p class="title">2018-2022</p>
+        <p>Sungai Petani, 08400 Merbok, Kedah</p>
+        <p>https://kedah.uitm.edu.my</p>
+      </div>
+    </div>
+  </div>
+</div>
+</center>
+
+</body>
+</html>
+

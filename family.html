@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>family</title>
+<style>
+* {box-sizing: border-box;}
+}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-image: url("experiencebackground.png");
+}
+.navbar {
+  width: 100%;
+  background-color: rosybrown;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  width: 14.28%; /* Seven links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: thistle;
+}
+.navbar a:active {
+  background-color: crimson;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-image: url("experiencebackground.png");
+}
+.header {
+  text-align: center;
+  padding: 32px;
+  font-size: 20px;
+}
+.h2 {
+  background-color: rosybrown;
+  boarder:outset;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html">Home</a> 
+  <a href="biodata.html">Biodata</a> 
+  <a href="experience.html">Experience</a> 
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="other.html">Other</a>
+</div>
+<br>
+<br>
+
+<center>
+<div class="container">
+  <img src="abah.jpg" alt="abah" class="image">
+  <div class="overlay">My beloved father</div>
+</div>
+  <br>
+  <p>This is my father. His name is Muhammad Kamil Bin Zulkifli. He was born on 5th April 1973</p>
+  <p>in Pahang. He loves football and cat. Plus, he is a blade collector. To me, he is the funniest person</p>
+  <p>and always make me happy.</p>
+</center>
+<br>
+<br>
+
+<center>
+<div class="container">
+  <img src="mamy.jpg" alt="mamy" class="image">
+  <div class="overlay">My beloved mother</div>
+</div>
+  <br>
+  <p>This beautiful woman is my mom, Rohaya Binti Awang. She as born on 11th December 1969</p>
+  <p>in Sabah. My mom is the strongest person I had known and I adore her so much. She is the one that</p>
+  <p>is happy go lucky and sporting. </p>
+</center>
+<br>
+<br>
+
+<center>
+<div class="container">
+  <img src="me.jpg" alt="me" class="image">
+  <div class="overlay">Myself-eldest</div>
+</div>
+  <br>
+  <p>I am the eldest and a sister to one little brother. One word to describe me is independent.</p>
+</center>
+<br>
+<br>
+
+<center>
+<div class="container">
+  <img src="adik.jpg" alt="adik" class="image">
+  <div class="overlay">My younger brother</div>
+</div>
+  <br>
+  <p>This boy is my beloved brother, Muhammad Danish Bin Muhammad Kamil. He is now 17 years old, waiting to sit for SPM.</p>
+  <p>He is a good brother and we have the best bond as a sibling. Danish loves football same as our father.</p>
+</center>
+<br>
+<br>
+<br>
+
+</body>
+</html>
